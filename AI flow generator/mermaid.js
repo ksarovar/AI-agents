@@ -76,7 +76,7 @@ app.post('/generate-mermaid', async (req, res) => {
   }
 
   // Hardcoded model
-  // const selectedModel = 'qwen/qwen2.5-vl-3b-instruct:free';
+  // const selectedModel = 'qwen/qwq-32b:free';
   const selectedModel = 'openrouter/quasar-alpha';
 
 
