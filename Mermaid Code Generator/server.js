@@ -31,7 +31,7 @@ app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(swaggerDocs));
 // OpenRouter API configuration using OpenAI client
 const client = new OpenAI({
   baseURL: 'https://openrouter.ai/api/v1',
-  apiKey: "",
+  apiKey: "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",
 });
 
 // Route to generate Mermaid code
