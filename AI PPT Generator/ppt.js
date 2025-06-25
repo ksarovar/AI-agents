@@ -36,7 +36,7 @@ app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(swaggerDocs));
 // OpenRouter AI client setup
 const client = new OpenAI({
   baseURL: 'https://openrouter.ai/api/v1',
-  apiKey: "openrouter api key",
+  apiKey: "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",
 });
 
 // Input validation middleware
